@@ -7,9 +7,6 @@ requires = [
 
 __version__ = '0.0.1'
 
-if not __version__:
-    raise RuntimeError('Cannot find version information')
-
 
 setup(
     name='chrome-headless-browser',
